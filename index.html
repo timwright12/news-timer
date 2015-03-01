@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <title>Refresh Boston News Timer</title>
+  
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="cleartype" content="on">
+  
+  <!-- icons & favicons -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/images/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="assets/images/android-chrome-192x192.png" sizes="192x192">
+  <meta name="msapplication-square70x70logo" content="assets/images/smalltile.png" />
+  <meta name="msapplication-square150x150logo" content="assets/images/mediumtile.png" />
+  <meta name="msapplication-wide310x150logo" content="assets/images/widetile.png" />
+  <meta name="msapplication-square310x310logo" content="assets/images/largetile.png" />
+
+  
+  <!--[if IE]>
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <![endif]-->
+  
+  <!-- style -->
+  <link rel="stylesheet" href="assets/css/app.css">
+  
+</head>
+<body>
+  
+  <div class="container">
+  
+    <header class="banner" role="banner">
+      <h1>News</h1>
+      <button type="button" id="start">Start</button>
+      <button type="button" id="next">Next</button>
+      <div id="time" aria-live="polite">5:00</div><!--/#timer-->
+    </header>
+    
+    <div id="news-output">
+      <div class="gutter">
+        <ul class="list-clean news-list">
+          <li class="news-item">
+            <a href="#" class="news-link">Title of the news item</a>
+            <span class="news-source">Source: <a href="#">Techcrunch</a></span>
+          </li>
+          <li class="news-item">
+            <a href="#" class="news-link">Title of the news item</a>
+            <span class="news-source">Source: <a href="#">Techcrunch</a></span>
+          </li>
+        </ul>
+      </div><!--/.gutter-->
+    </div><!--/#news-output-->
+  </div><!--/.container-->
+  
+  <!-- script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
